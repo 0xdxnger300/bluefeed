@@ -1,0 +1,294 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    background: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo-yazi
+{
+    display: flex;
+    margin-left: 20%;
+    height: 100px;
+}
+
+.logo-yazi p
+{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: #2d7abe;
+}
+
+.logo-yazi span
+{
+    color: white;
+}
+
+.logo-yazi img
+{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+nav
+{
+    margin-right: 20%;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover
+{
+    color: #2d7abe;
+    transition: 0.3s color;
+    text-decoration: underline;
+}
+
+#lojistikler
+{
+    clear: both;
+    background: linear-gradient(190deg, #000000, #00315c);
+    height: auto;
+}
+
+.orta-baslik
+{
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.orta-baslik h2
+{
+    text-align: center;
+}
+
+.orta-baslik span
+{
+    color: #2d7abe; 
+}
+
+.lojistikler
+{
+    padding-bottom: 30px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.lojistikler img
+{
+    margin-top: -20px;
+    border-radius:  10px;
+    width: 400px;
+    height: 300px;
+}
+
+.lojistikler p
+{
+    text-align: center;
+    display: flex;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#hakkimizda
+{
+    padding-top: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background: #111;
+    clear: both;
+    height: auto;
+}
+
+.ustkapsayan
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    height: 150px;
+    margin: 20px auto;
+    background: #222020;
+}
+
+.ustkapsayan:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+.ustkapsayan h2
+{
+    margin-top: -5px;
+}
+
+#sunma
+{
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px solid #2d7abe;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#sunma h2
+{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#sunma p
+{
+    text-align: center;
+    margin: 10px auto;
+    list-style-type: none;
+}
+
+#sunma span
+{
+    margin-bottom: 60px;
+    color: #2d7abe;
+}
+
+#iletisim
+{
+    border: 1px solid rgba(255, 0, 0, 0);
+    clear: both;
+    background: #252222;
+    height: auto;
+}
+
+.altkapsayan
+{
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#iletisim h2
+{
+    padding-top: 10px;
+}
+
+#iletisim a
+{
+    color: white;
+}
+
+iframe
+{
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+}
+
+.form-container 
+{
+    max-width: 400px;
+    background: #222;
+    padding: 25px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.form-container h2 
+{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d7abe;
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea 
+{
+    width: 380px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #eee;
+    font-size: 15px;
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus 
+{
+    outline: 2px solid #2d7abe;
+    background: #2c3e50;
+}
+
+button[type="submit"] 
+{
+    width: 100%;
+    padding: 12px;
+    background: #2d7abe;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+footer
+{
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    background: #00315c;
+    line-height: 100px;
+}
